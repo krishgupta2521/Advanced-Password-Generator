@@ -1,79 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Advanced Password Generator
 
-# Getting Started
+The Advanced Password Generator is a React Native application designed to help users effortlessly create strong. With a focus on user experience, this app offers easy customization, password management, and a dark mode option to enhance visual comfort.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- **Automated Password Generation**: Generate complex passwords between 8 to 16 characters, incorporating letters, numbers, and special characters.
+- **Simple**: Easily save and manage your passwords within the app, ensuring they are always at your fingertips.
+- **Dark Mode**: Toggle between light and dark themes to suit your preferences.
+- **History Management**: Seamlessly copy, delete individual passwords, or clear the entire history with just a tap.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Getting Started
 
-To start Metro, run the following command from the _root_ of your React Native project:
+1. **Clone the Repository**:
+   ```shell
+   git clone https://github.com/adarshkr357/Advanced-Password-Generator.git
+   cd Advanced-Password-Generator
+   ```
 
-```bash
-# using npm
-npm start
+2. **Install Dependencies**:
+   Run the following commands to install the necessary packages:
 
-# OR using Yarn
-yarn start
-```
+   ```shell
+   npm install @react-native-async-storage/async-storage
+   npm install @react-navigation/native @react-navigation/native-stack
+   npm install react-native-screens react-native-safe-area-context
+   ```
 
-## Step 2: Start your Application
+3. **Run the Application**:
+   Start the app using this command:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+   ```shell
+   npx react-native@latest run-android
+   ```
 
-### For Android
+   Use an Android emulator/device or an iOS simulator as part of the React Native development workflow.
 
-```bash
-# using npm
-npm run android
+   > [!NOTE]
+   > If you are using emulator then run these commands (You must choose free port):
+   > ```shell
+   > adb reverse tcp:9090 tcp:9090
+   > npx react-native@latest run-android --port 9090
+   > ```
 
-# OR using Yarn
-yarn android
-```
 
-### For iOS
+## Packages to Install
 
-```bash
-# using npm
-npm run ios
+- **Async Storage**: Manages saved passwords and theme preferences.
+- **React Navigation**: Facilitates smooth navigation between different screens.
+- **React Native Screens & Safe Area Context**: Enhances performance and design for various device layouts.
 
-# OR using Yarn
-yarn ios
-```
+## Important Notes
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+- The generated passwords are stored within your device's storage.
+- Utilize the history feature to keep track of and manage your passwords conveniently.
+- Adjust the app settings to best fit your accessibility needs.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Contributing
 
-## Step 3: Modifying your App
+We welcome contributions! If you would like to contribute to this project, feel free to fork the repository and submit a pull request.
 
-Now that you have successfully run the app, let's modify it.
+## License
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Disclaimer
 
-## Congratulations! :tada:
+This application was created for password management convenience and should be used responsibly. The developer disclaims any responsibility for security issues arising from misuse.
 
-You've successfully run and modified your React Native App. :partying_face:
+For questions, suggestions, or feedback, please contact me at `adarshkr357@gmail.com` or connect with me on [LinkedIn](https://www.linkedin.com/in/adarshkr357/).
 
-### Now what?
+[![Made With ❤️ By Adarsh](https://img.shields.io/badge/Made%20With%20%E2%9D%A4%EF%B8%8F%20By-Adarsh-red)](https://github.com/adarshkr357)
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+---
 
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Feel free to make modifications or add any specific details that reflect your project's unique features and functionalities!
