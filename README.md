@@ -70,7 +70,3 @@ This application was created for password management convenience and should be u
 For questions, suggestions, or feedback, please contact me at `adarshkr357@gmail.com` or connect with me on [LinkedIn](https://www.linkedin.com/in/adarshkr357/).
 
 [![Made With ❤️ By Adarsh](https://img.shields.io/badge/Made%20With%20%E2%9D%A4%EF%B8%8F%20By-Adarsh-red)](https://github.com/adarshkr357)
-
----
-
-Feel free to make modifications or add any specific details that reflect your project's unique features and functionalities!
