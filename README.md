@@ -35,12 +35,12 @@ The Advanced Password Generator is a React Native application designed to help u
 
    Use an Android emulator/device or an iOS simulator as part of the React Native development workflow.
 
-   > [!NOTE]
-   > If you are using emulator then run these commands (You must choose free port):
-   > ```shell
-   > adb reverse tcp:9090 tcp:9090
-   > npx react-native@latest run-android --port 9090
-   > ```
+> [!NOTE]
+> If you are using emulator then run these commands (You must choose free port):
+> ```shell
+> adb reverse tcp:9090 tcp:9090
+> npx react-native@latest run-android --port 9090
+> ```
 
 
 ## Packages to Install
